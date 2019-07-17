@@ -17,4 +17,5 @@ def reduce(array, value = 0)
   end
   return value 
 end 
+
     
