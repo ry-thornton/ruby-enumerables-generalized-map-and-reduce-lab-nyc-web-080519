@@ -16,8 +16,9 @@ def reduce(array, memo)
     value = yield(array[i], memo)
     i = i + 1
   end
-  
   return value 
+  
+  
 end
 
     
