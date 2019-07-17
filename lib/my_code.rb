@@ -9,7 +9,7 @@ def map(array)
   return new_array 
 end
 
-def reduce(array, memo)
+def reduce(array, memo = 0)
   value
   i = 0
   while i < array.length do
