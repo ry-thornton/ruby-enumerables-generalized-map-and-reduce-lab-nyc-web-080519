@@ -17,8 +17,6 @@ def reduce(array, value = 0)
   else
     return FALSE
   end
+  end
   return value
 end
-
-  end
-  r
