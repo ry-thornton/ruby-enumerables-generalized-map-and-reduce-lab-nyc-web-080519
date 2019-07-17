@@ -16,7 +16,6 @@ def reduce(array, value = 0)
     i = i + 1
   end
   return value 
-end 
-
+end
 
     
