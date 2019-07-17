@@ -13,10 +13,12 @@ def reduce(array, memo)
   value
   i = 0
   while i < array.length do
-    if i = 0
-    array[i] + array[i + 1] = value 
+    value = yield(array, memo)
     i = i + 1
-  else
+  end
+  return value 
+end
+
     
     
       
