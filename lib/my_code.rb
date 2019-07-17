@@ -9,11 +9,10 @@ def map(array)
   return new_array 
 end
 
-def reduce(array, memo = 0)
-  value
+def reduce(array, value = 0)
   i = 0
   while i < array.length do
-    value = yield(array[i], memo)
+    value = yield(array[i], value)
     i = i + 1
   end
   return value 
